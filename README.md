@@ -73,6 +73,8 @@ This repo uses `black` to format all Python code. `black` is run in CI on push t
 ### CI Testing
 CI runs this repo's tests across 3 Python versions, 3.7, 3.8, and 3.9. Since this repo does not contain any platform specific code, CI testing only occurs on one platform (Ubuntu Linux). If this repo included platform specific code, the CI matrix would be extended to include Windows and MacOS.
 
+An example CI run is available at https://github.com/TheTripleV/war-card-game/actions/runs/965428820
+
 ## Assumptions
 
 ### There can only be one winner
